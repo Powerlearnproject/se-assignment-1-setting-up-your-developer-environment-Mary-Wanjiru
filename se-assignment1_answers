@@ -1,0 +1,94 @@
+TASKS 
+
+
+TASK 1
+INSTALLING WINDOWS 11 ON YOUR PC
+
+~ Navigate to https://www.microsoft.com/software-download/windows11
+~ Check whether your PC meets the minimum system requirements for Windows 11 by downloading Microsoft's PC Health Check app.
+~ Once you have ascertained that your PC can run windows 11, go back to the Microsoft's web page and click download now.
+~ Once the download is complete, locate it in your downloads folder and double click on it to run it.
+~ Click on the accept and install button to accept the licence agreement and begin the install.
+~ Click the restart now button
+~ Once the installation process is complete, log in to your desktop.
+
+
+TASK 2
+Installing a Text Editor or Integrated Development Environment (IDE) 
+
+~ Navigate to https://code.visualstudio.com/Download.
+~ Click on the Download for Windows button to begin the download.
+~ Once the download is complete, locate it in your downloads folder and double click on it to run it.
+~ Click on the "accept the agreement button" and click next.
+~ Click next if you are okay with the default folder where vs code will be installed or click browse to select a different folder.
+~ Select additional tasks like creating a desktop icon, adding "open with code" actin to windows explorer, register code as an editor for suported file types and add to PATH and click next to start the install process.
+~ Once the installation is complete, choose launch VS Code by checking the "Launch Visual Studio Code" box.
+~ Click finish.
+
+
+TASK 3
+Setting Up a Version Control System
+
+~ Navigate to https://github.com.
+~ Click on the "Sign up" button.
+~ Input a username, your email and choose a password of your liking according to the guidlines, verify your account and then click create account.
+
+~ Open your browser and navigate to https://git-scm.com/download
+~ Click on the "Windows" button to download the Git installer for windows
+~ Once the download is complete, locate it on the downloads folder and double click on it.
+~ Once the installation windows pops up click on  next to accept the licence.
+~~Click next if you are okay with the default folder where git will be installed or click browse to select a different folder.
+~ Accept the default settings and select additional components you want to install like add icon to desktop, Windows Explorer Integration, Git LFS, associat .git configuration filess with the default text editor and associate .sh files to be run with bash and click next.
+~ Click next until you reach the "Install" button, then click Install.
+~ Once the installation is complete, check the launch Git Bash then click Finish.
+~ Navigate to your search bar and type git bash.
+
+~ Open Git Bash. 
+~ Set up Username and Email using git config --global user.name "Mary Wanjiru" and git config --global user.email "001wanjiru@gmail.com"
+~ Navigate to desktop via cd desktop. This is where I want to create my project.
+~ Type "mkdir My_PLP_Project"
+~ Navigate inside your project via "cd My_PLP_Project"
+~ Initialize the git repository using "git innit" 
+~ Create a new README file inside the  directory via echo "# My new README" > README.md
+~ "git add . " to add the new file in the repository
+~ "git commit -m 'My commit'"
+
+~Create a new repository in github and call it My_PLP_Project.
+~ In Git Bash, add the URL of your GitHub repository "git remote add origin https://github.com/Mary-Wanjiru/My_PLP_Project.git"
+~ Then git push to push the file to your remote repository " git push -u origin master"
+
+
+TASK 4 
+Install Necessary Programming Languages and Runtimes - Python
+
+~ Open your web browser and go to https://www.python.org/downloads/
+~ Click on the "Download Python" button.
+~ Locate the downloaded file on the downloads folder and double-click it to start the installation process.
+~ Check the box "Add Python to PATH" at the bottom of the installation window.
+~ Click install now
+~ Choose the location where you want python to be installed and click install
+~ Once setup is successful click close.
+
+
+TASK 5
+Configuring a Database (MySQL)
+
+~ Navigate to https://dev.mysql.com/downloads/windows/installer/5.7.html on your browser.
+~ Click the download button on MySQL Installer for Windows
+~ When prompted to either sign in or sign up, skip by clicking "No thanks, just start my download".
+~ Once the download is complete, double click on it to start the installation process.
+~ In the MySQL Installer, choose the setup type by clicking on "Developer Default" and click next.
+~ Install all the required dependancies and click next.
+~ Click next on the default path.
+~ Click execute to install the product configuration.
+~ Click next to start configuration.
+~ Set a strong password for thr root user and click next.
+~ Choose to run MySQL as a Windows Service and click next.
+~ Click Execute to apply the configuration settings.
+~ Once the configuration is complete, click Finish.
+
+
+There were no major challenges faced during the installatin processes
+
+
+
